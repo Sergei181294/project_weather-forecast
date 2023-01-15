@@ -1,37 +1,51 @@
-.container {
-      width: 1000px;
-      margin: 0;
-      padding: 0;
-      background-color: rgb(80, 236, 7);
+.main {
+      max-width: 1440px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      background: linear-gradient(135deg, #dcba3c 0, #e2b033 10%, #e8a52b 20%,
+                  #ed9824 30%, #f08a20 40%, #f37b1f 50%, #f56a21 60%, #f75827 70%,
+                  #f9442f 80%, #fa2c38 90%, #fa0042 100%);
+      border-radius: 11px;
+      justify-content: space-between;
+}
+
+.container_left {
+      max-width: 864px;
+      padding: 20px 50px;
+}
+
+.container_right {
+      max-width: 500px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.23);
+      padding: 70px 25px;
+      border-radius: 11px;
+      text-align: center;
 }
 
 .day {
-
-      font-weight: 300;
       font-size: 36px;
-      line-height: 120%;
       color: #fff;
-      text-align: start;
 }
+
 .date {
-      font-weight: 300;
       font-size: 40px;
-      line-height: 120%;
       color: #fff;
-      text-align: start;
-    }
-    .temperature {
-      display: block;
-      font-weight: 100;
-      font-size: 164px;
-      line-height: 120%;
-      letter-spacing: 0.025em;
+}
+
+.temperature {
+      font-size: 100px;
       color: #fff;
       margin: 0;
-      margin-block-end: 0;
       margin-top: 160px;
-      text-align: start;
-    }
+}
+.temp_feel {
+      font-size: 60px;
+      color: #fff;
+      margin: 0;
+      margin-top: 40px;
+}
 
 .list {
       display: flex;
@@ -40,4 +54,11 @@
       padding-inline-start: 0;
       margin-top: 60px;
 
+}
+.logo {
+      max-width: 143px;
+}
+.logo img {
+      position: absolute;
+      left: 70px;
 }

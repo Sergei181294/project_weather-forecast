@@ -1,3 +1,3 @@
-export const getTime = (value: number | undefined) => {
-       return new Date(value!*1000).toString().split(" ")[4]
+export const getTime = () => {
+       return new Date().toString().split(" ")[4]
    }

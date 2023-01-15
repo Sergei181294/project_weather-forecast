@@ -1,4 +1,4 @@
-export const getDate = (value: number | undefined) => {
-       const dateTime = new Date(value!*1000).toString().split(" ");
+export const getDate = () => {
+       const dateTime = new Date().toString().split(" ");
        return dateTime[1] + " " + dateTime[2] + " " + dateTime[3];
    }

@@ -6,7 +6,5 @@ export interface Weather {
     sea_level:number;
   };
   wind: { speed: number };
-  name: string;
   id?: number;
-  dt: number;
 }

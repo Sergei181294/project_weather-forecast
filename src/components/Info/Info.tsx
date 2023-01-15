@@ -1,6 +1,6 @@
 import { FC } from "react";
-// @ts-ignore
-import css from "./info.modules.css"
+
+import css from "./info.module.css"
 
 interface IProps {
        icon: any,
