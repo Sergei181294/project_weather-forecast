@@ -1,3 +1,4 @@
+
 .info {
        display: flex;
        gap: 15px;
@@ -8,11 +9,11 @@
 .label {
        font-weight: 300;
        font-size: 22px;
-       line-height: 26px;
+       
 }
 
 .value {
        font-weight: 300;
        font-size: 22px;
-       line-height: 26px;
+      
 }

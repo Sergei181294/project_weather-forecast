@@ -1,11 +1,12 @@
 export interface Weather {
   main: { 
-    temp: string; 
-    feels_like: string;
-    humidity:string;
-    sea_level:string;
+    temp: number; 
+    feels_like: number;
+    humidity:number;
+    sea_level:number;
   };
-  wind: { speed: "" };
+  wind: { speed: number };
   name: string;
   id?: number;
+  dt: number;
 }
